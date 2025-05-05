@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishq Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header class="top-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logoo.png" alt="Tanishq Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Search Bar -->
+                    <form class="d-flex m-auto w-50 w-md-75">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                            <input class="form-control border-start-0 border-end-0" type="search"
+                                placeholder="Search for Gold Jewellery, Diamond Jewellery and more..."
+                                aria-label="Search">
+                            <span class="input-group-text bg-white border-start-0"><i
+                                    class="fa-solid fa-camera"></i></span>
+                            <span class="input-group-text bg-white border-start-0"><i
+                                    class="fa-solid fa-microphone"></i></span>
+                        </div>
+                    </form>
+
+                    <!-- Right Side Icons -->
+                    <ul class="d-flex align-items-center list-unstyled ms-lg-3 mb-0">
+                        <li class="mx-2"><i class="fa-regular fa-gem"></i></li>
+                        <li class="mx-2"><i class="fa-solid fa-store"></i></li>
+                        <li class="mx-2"><i class="fa-regular fa-heart"></i></li>
+                        <li class="mx-2"><i class="fa-solid fa-user"></i></li>
+                        <li class="mx-2"><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Category Icons -->
+        <div class="container mt-4">
+            <ul class="d-flex flex-wrap list-unstyled allcategories p-0 align-items-center justify-content-between">
+                <li>
+                    <a href="#">
+                        <img src="images/all-jewellery-l1.svg" alt="All Jewellery" class="category-icon">
+                        <span>All Jewellery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/gold-l1.svg" alt="Gold" class="category-icon">
+                        <span>Gold</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/diamond-l1.svg" alt="Diamond" class="category-icon">
+                        <span>Diamond</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/earrings-l1.svg" alt="Earrings" class="category-icon">
+                        <span>Earrings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/rings-l1.svg" alt="Rings" class="category-icon">
+                        <span>Rings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/dailywear-l1.svg" alt="Daily wear" class="category-icon">
+                        <span>Daily wear</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/collection-l1.svg" alt="Collections" class="category-icon">
+                        <span>Collections</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/wedding-l1.svg" alt="Weddings" class="category-icon">
+                        <span>Weddings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/gifting-l1.svg" alt="Gifts" class="category-icon">
+                        <span>Gifts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/more-l1.svg" alt="More" class="category-icon">
+                        <span>More</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </header>
+
+    <!-- Slider Section -->
+    <section class="slider-section bg-light py-3">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="images/dailywear-desktop.jpg" class="d-block w-100" alt="Dailywear Banner">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/rivaah-south-geo-d1.webp" class="d-block w-100" alt="Rivaah Collection">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/floral-affair-desktop.webp" class="d-block w-100" alt="Floral Affair">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/string-it-desktopnew.webp" class="d-block w-100" alt="String It Collection">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/gd-desktop-woo.webp" class="d-block w-100" alt="Gold Display">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Tanishq Collections Section -->
+    <section class="mid-section mt-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <h1>Tanishq Collections</h1>
+                <p>Explore our newly launched collection</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <img src="images/five.jpg" alt="Earrings" class="img-fluid w-100"
+                        style="height: 620px; object-fit: cover; border-radius: 15px;">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/six.jpg" alt="Jewellery" class="img-fluid w-100"
+                        style="height: 300px; object-fit: cover; border-radius: 15px;">
+                    <img src="images/seven.jpg" alt="Chains" class="img-fluid mt-3 w-100"
+                        style="height: 300px; object-fit: cover; border-radius: 15px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pick Up Where You Left Section -->
+    <section class="Pick-up-section mt-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <h1>Pick up where you left</h1>
+                <p>Our products tend to sell out quickly, so don't delay in completing your purchase.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-5 mb-4">
+                    <div class="image-box text-center">
+                        <img src="images/goldcollection.webp" alt="Balaji Gold Coin" class="img-fluid">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 mb-4">
+                    <div class="image-box text-center">
+                        <img src="images/modish ring.webp" alt="Modish Ring" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perfect Match Section -->
+    <section class="perfect-match mt-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <h1>Find Your Perfect Match</h1>
+                <p>Shop by Categories</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/earrings p.webp" alt="Earrings" class="img-fluid">
+                        <h5>EARRINGS</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/finger rings p.jpg" alt="Finger Rings" class="img-fluid">
+                        <h5>FINGER RINGS</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/pendants - p.webp" alt="Pendants" class="img-fluid">
+                        <h5>PENDANTS</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/mangalsutra-cat.jpg" alt="Mangalsutra" class="img-fluid">
+                        <h5>MANGALSUTRA</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/bracelets-cat.webp" alt="Bracelets" class="img-fluid">
+                        <h5>BRACELETS</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/bangles-cat.jpg" alt="Bangles" class="img-fluid">
+                        <h5>BANGLES</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/chains-cat.webp" alt="Chains" class="img-fluid">
+                        <h5>CHAINS</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="PerfectImage text-center">
+                        <img src="images/all-jew-cat.webp" alt="View All" class="img-fluid">
+                        <h5>VIEW ALL</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="world-section mt-5">
+        <div class="row text-center mb-4">
+            <h1>Tanishq World</h1>
+            <p>A companion for every occasion</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-side-image">
+                        <img src="images/sixteen.jpg" alt="">
+                        <div class="hp-tq-pillars-heading">
+                            <h2 class="hp-tq-pillars-heading-h2">Weddings</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-side-img">
+                        <img src="images/seventeen.jpg" alt="">
+                        <div class="hp-tq-pillars-heading2">
+                            <h2 class="hp-tq-pillars-heading2-h2">Diamond</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-side-bottom">
+                        <img src="images/eighteen.jpg" alt="">
+                        <div class="hp-tq-pillars-heading3">
+                            <h2 class="hp-tq-pillars-heading3-h2">Gold</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-side-bottom">
+                        <img src="images/nineteen.jpg" alt="">
+                        <div class="hp-tq-pillars-heading4">
+                            <h2 class="hp-tq-pillars-heading4-h2">Dailywear</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new arrivals mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="backimage">
+                        <img src="images/twinty.webp" alt="">
+                    </div>
+                    <div class="heading-box">
+                        <div class="newarrivals">
+                            <h2>New Arrivals</h2>
+                        </div>
+                        <div class="right-icon">
+                            <img src="images/diamond-logo.webp" alt="">
+                            <span>500+ New items</span>
+                        </div>
+                    </div>
+                    <p class="para-heading">New Arrivals Dropping Daily, Monday through Friday. Explore the Latest
+                        Launches Now!</p>
+                    <div class="col-lg-5">
+                        <div class="left-position">
+                            <img src="images/twinty one.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="right-position">
+                            <img src="images/twinty two.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="assurance border-top ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 p-0 border-end">
+                    <div class="center-heading">
+                        <h1>Tanishq <span>Assurance</span></h1>
+                        <p class="equal">Crafted by experts, cherished by you</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="right-side-images">
+                        <div class="col-lg-2">
+                            <img src="images/twinty three.svg" alt="">
+                            <p>Quality Craftmanship</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="images/twinty four.svg" alt="">
+                            <p>Ethically Sourced</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="images/twinty five.svg" alt="">
+                            <p>100% Transperancy</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section mt-5">
+        <div class="row text-center mb-4">
+            <h1>Exchange Program</h1>
+            <p>Trusted by 2.8M+ families</p>
+        </div>
+    </section>
+
+    <section class="video-sections">
+        <div class="video_jewellary">
+            <video controls autoplay muted loop>
+                <source src="./images/jewellaryvid.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+
+    <section class="trusted-section">
+        <div class="container">
+            <div class="row justify-content-center my-5">
+                <div class="col-md-8 text-center">
+                    <h4>
+                        Trust us to be part of your precious moments and to deliver jewellery that you'll cherish
+                        forever.
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center mt-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="images/tanishq-exchange-logo.svg" alt="" width="122px" height="98px">
+                    <p class="feature-text">Tanishq Exchange</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="images/tanishq-purity-logo.svg" alt="" width="122px" height="98px">
+                    <p class="feature-text">The Purity Guarantee</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="images/tanishq-trust-logo.svg" alt="" width="122px" height="98px">
+                    <p class="feature-text">Complete Transparency and Trust</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="images/tanishq-lifetime-logo.svg" alt="" width="122px" height="98px">
+                    <p class="feature-text">Lifetime Maintenance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Shop-section mt-5">
+        <div class="row text-center mb-4">
+            <h1>Curated For You</h1>
+            <p>Shop By Gender</p>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <img src="images/women.jpg" alt="" class="women">
+                    <h4>Women</h4>
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/mens.webp" alt="" class="men">
+                    <h4>Men</h4>
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/Thirthy two.webp" alt="" class="kids">
+                    <h4>Kids</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="back-box">
+                        <div class="content">
+                            <h2>#GiftOfChoice</h2>
+                            <h6>Breathtaking gifts for your loved one’s</h6>
+                            <p>STARTING AT ₹10,000</p>
+                            <a href="">Explore Now ></a>
+                        </div>
+                        <div class="gift">
+                            <div class="lines"></div>
+                            <div class="line"></div>
+                            <div class="flower-Image">
+                                <img src="images/gifticon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="back-image">
+                        <img src="images/background image of right-side.svg" alt="">
+                        <div class="logo-icon">
+                            <img src="images/tanishq-exchange-logo.svg" alt="">
+                        </div>
+                        <div class="content-right">
+                            <h2>Exchange your Old Gold for 100% Value!</h2>
+                            <h6>Unlock full value for your old gold today with our</h6>
+                            <p>Exchange Program !</p>
+                            <a href="">Know More ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="diamond-section mt-5">
+        <div class="row text-center">
+            <h1>Styling 101 With Diamonds</h1>
+            <p>Trendsetting diamond jewellery suited for every occasion</p>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="card-carousel">
+            <div class="card"><img src="images/back-one.webp" alt=""></div>
+            <div class="card"><img src="images/back-second.webp" alt=""></div>
+            <div class="card active">
+                <video autoplay muted loop>
+                    <source src="images/second video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="card"><img src="images/back-three.webp" alt=""></div>
+            <div class="card"><img src="images/back-four.webp" alt=""></div>
+        </div>
+    </section>
+
+
+    <section class="experience-section mt-5 ">
+        <div class="container">
+            <div class="row text-center border rounded">
+                <h1 class="mt-5">Tanishq Experience</h1>
+                <p>Find a Boutique or Book a Consultation</p>
+                <div class="container">
+                    <div class="row align-items-center border rounded">
+                        <div class="col-lg-4">
+                            <img src="images/store-locator.jpg" alt="" class="image">
+                            <h5>VISIT OUR STORE</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/book-an-appointment.webp" alt="" class="image">
+                            <h5>BOOK AN APPOINTMENT</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/talk-to-expert.webp" alt="" class="image">
+                            <h5>TALK TO AN EXPERT</h5>
+                        </div>
+                    </div>
+                    <div class="row align-items-center border rounded">
+                        <div class="col-lg-4">
+                            <img src="images/Digigold (1).webp" alt="" class="image">
+                            <h5>DIGI GOLD</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/blogs.webp" alt="" class="image">
+                            <h5>BLOGS</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/jewellery-care-guide.webp" alt="" class="image">
+                            <h5>JEWELLERY GUIDE</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <footer class="footer text-white mt-5 ">
+        <div class="container pt-4 pb-2">
+            <div class="row text-center text-md-start mt-4">
+                <div class="col-lg-12 mb-4">
+                    <img src="images/tanishq-footer-logo.svg" alt="Tanishq" class="footer-logo" style="width: 140px;">
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <h6 class="fw-bold">Download the Tanishq App Now</h6>
+                        <img src="images/tanishq-app-QR-code.svg" alt="QR Code" class="footer-scanner">
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="list">
+                            <h6 class="fw-bold">Useful Links</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="" class="text-white text-decoration-none">Delivery Information</a></li>
+                                <li><a href="" class="text-white text-decoration-none">International Shipping</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Payment Options</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Track your Order</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Returns</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Find a Store</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="list">
+                            <h6 class="fw-bold">Information</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="" class="text-white text-decoration-none">Blog</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Offers & Contest Details</a></li>
+                                <li><a href="" class="text-white text-decoration-none">Help & FAQs</a></li>
+                                <li><a href="" class="text-white text-decoration-none">About Tanishq</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="list">
+                            <h6 class="fw-bold">Contact Us</h6>
+                            <p class="mb-2">1800-266-0123</p>
+                            <h6 class="fw-bold mt-3">Chat With Us</h6>
+                            <p>+91 8147349242</p>
+                            <hr class="bg-white my-2" style="width: 70px;">
+                            <div class="d-flex gap-3 fs-5">
+                                <i class="fab fa-whatsapp"></i>
+                                <i class="fas fa-envelope"></i>
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/footer-playstore.svg" alt="">
+                    <img src="images/download.svg" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <hr class="ruler">
+                    <div class="col">
+                        <ul class="footer-social-icons">
+                            <li><h3>Social</h3></li>
+                            <li><a href=""><img src="images/footer-instagram.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-twitter.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-fb.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-youtube.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <hr class="ruler">
+                    <div class="col">
+                        <ul class="footer-icons">
+                            <li><a href=""><img src="images/footer-visa.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-mastercard.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-maestro.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-paypal.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-dinnerclub.svg" alt=""></a></li>
+                            <li><a href=""><img src="images/footer-americanexpress.svg" alt=""></a></li>
+
+                        </ul>
+                    </div>
+                    <hr class="ruler">
+                    <div class="col">
+                        <ul class="footer-copyright">
+                           <li>© 2025 Titan Company Limited.All Rights Reserved.</li>
+                           <li>Terms & Conditions</li>
+                           <li>Privacy Policy</li>
+                           <li>Disclaimer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
